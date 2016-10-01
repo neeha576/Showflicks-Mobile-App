@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/index.css" rel="stylesheet" />
+    <title></title>
+    <script>
+        document.addEventListener("DOMContentLoaded", getBugsAll);
+        function getBugsAll() {
+            var oreq = new XMLHttpRequest();
+            oreq.onreadystatechange = function () {
+                if (oreq.readyState == 4) {
+                    var table = JSON.parse(oreq.responseText);
+                    dvbugreport.innerHTML = ""; // clear first
+                    for (var i = 0; i < table.length; i++) {
+                        var record = table[i];
+                        dvbugreport.innerHTML += "<b style='color:red'>" + record.bugid + "</b><br />"; dvbugreport.innerHTML += "<i style='color:green'>" + "\"" + record.bugname + "\"</i><br />"; dvbugreport.innerHTML += "Reported By: " + "<span style='color:darkblue'>" + record.reportedby + "</span><br />"; dvbugreport.innerHTML += "Severity: " + "<span style='color:purple'>" + record.severity + "</span><br />";
+                        dvbugreport.innerHTML += "Reported on: " + "<span style='color:brown'>" + record.reportedon + "</span><br />";
+                        dvbugreport.innerHTML += "<a style='color:darkred;font-size:14pt;margin:2%' href='updateonebug.html?id=" + record.bugid + "'>UPDATE</a><br><hr>";
+                    }
+                }
+            }
+            oreq.open("GET",
+            "http://pomatino.com/bugreport.svc/bugs/all", true);
+            oreq.send();
+        }
+    </script>
+</head>
+<body>
+    <div class="head-update1">
+        <div class="mov-col1"><a href="updateal.html"><img src="images/back.png" /></a></div>
+        <div class="mov-col2"><span align="middle">BUG REPORT</span></div><br /><br />
+    </div>
+    <div id="dvbugreport" style="margin-bottom:30%"></div>
+    <div class="footer">
+        <ul class="navbar">
+            <li style="width:20%;margin-left:-6%"><a class="anchor" href="index.html"><img style="width:30px;" src="images/shows.png" /><br /><span class="color">Shows</span></a></li>
+            <li style="width:30%"><a class="anchor" href="myshows.html"><img style="width:30px;padding-left:18%;" src="images/myshows.png" /><br /><span class="color">My Shows</span></a></li>
+            <li style="width:20%"><a href="login.html"><img style="width:30px;padding-left:12%" src="images/login.png" /><br /><span class="color">Login</span></a></li>
+            <li style="width:20%"><a href="feedback.html"><img style="width:30px;padding-left:24%" src="images/feedback.png" /><br /><span class="color">Feedback</span></a></li>
+        </ul>
+    </div>
+</body>
+</html>

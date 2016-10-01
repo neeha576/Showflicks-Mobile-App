@@ -1,0 +1,185 @@
+﻿body {
+    background-color:rgb(126, 159, 180);
+    margin:50px 0px 20px 0px;
+}
+.login
+{
+    
+    margin:30% 10% 40% 10%;
+    background-color:rgb(245, 240, 240);
+    border-radius:4%;
+
+}
+.register
+{
+    
+    margin:20% 10% 40% 10%;
+
+
+}
+.login-head
+{
+    display:block;
+    height:10%;
+    padding-left:5%;
+    padding-top:2%;
+    background-color:honeydew;
+    border-radius:5%;
+}
+.reg-head
+{
+    display:block;
+    padding-left:25%;
+
+}
+.myshow-head
+{
+    display:block;
+    padding-left:1%;
+    color:white;
+}
+.login-sub
+{
+    margin:5%;
+    width:80%;
+    height:30%;
+
+    
+}
+.myshow-sub
+{
+    
+    width:85%;
+    margin-bottom:40%;
+}
+.lblcss
+{
+    color:white;
+    font-size:16pt;
+}
+.btn-color
+{
+    background-color:rgb(180, 83, 183);
+    color:white;
+    display:block;
+    font-size:15pt;
+    width:60%;
+    height:30%;
+    border-radius:2%;
+ }
+.btn-color1
+{
+    background-color:rgb(180, 83, 183);
+    color:white;
+    display:block;
+    font-size:15pt;
+    width:100%;
+    height:40%;
+    border-radius:8%;
+ }
+.btn-color2
+{
+    background-color:rgb(180, 83, 183);
+    color:white;
+    font-size:15pt;
+    width:100%;
+    height:60%;
+    border-radius:10%;
+ }
+#input-style
+{
+    
+    height:40%;
+    margin-bottom:8%;
+    font-size:15pt;
+    border-radius:0.2em;
+    background-image:url(images/username.png);
+    background-repeat:no-repeat;
+}
+.newmem
+{
+    padding-left:8%;
+    padding-top:4%;
+    border-top:1px solid gray;
+    
+}
+.newmem1
+{
+    padding-left:8%;
+    border-top:1px solid gray;
+    color:white;
+    
+}
+
+.input-style1
+{
+     height:40%;
+    margin-bottom:10%;
+    font-size:15pt;
+    border-radius:0.2em;
+
+}
+.input-style2
+{
+    display:block;
+    height:100%;
+    font-size:16pt;
+}
+.head-movie
+{
+    background-color:rgb(53, 194, 147);
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.mov-col1
+{
+    width:30%;
+    float:left;
+    margin-top:3%;
+
+}
+.mov-col2
+{
+    width:70%;
+    float:left;
+    margin-top:4%;
+   
+}
+.navbar
+{
+    list-style-type:none;
+    overflow:hidden;
+    width:100%;
+}
+.anchor
+{
+    text-decoration:none;
+
+}
+.color
+{
+    color:black;
+}
+    li{
+           
+           float:left;
+       }
+    li a {
+    display: block;
+    color: white;
+    font-size:15pt;
+    text-decoration: none;
+}
+.footer
+{
+     
+    background-color:rgb(244, 244, 244);
+    left:0;
+    bottom:0;
+    position:fixed;
+    width:100%;
+}

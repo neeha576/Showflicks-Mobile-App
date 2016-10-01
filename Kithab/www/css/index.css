@@ -1,0 +1,446 @@
+﻿body {
+    margin:50px 0px 50px 0px;
+    background-color:gainsboro;
+}
+.outer
+{
+    position:absolute;
+    width:100%;
+}
+.head
+{
+    background-color:rgb(53, 194, 147);
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+
+.navbar
+{
+    list-style-type:none;
+    overflow:hidden;
+    width:100%;
+}
+.footer
+{
+     
+    background-color:rgb(244, 244, 244);
+    left:0;
+    bottom:0;
+    position:fixed;
+    width:100%;
+    clear:both;
+}
+.color
+{
+    color:black;
+}
+
+.foo1
+{
+    padding-bottom:2%;
+}
+.imag
+{
+    width:30px;
+}
+.div1
+{
+    display:block;
+    width:100%;
+}
+.div2
+{
+    background-color:white;
+    padding:4%;
+    margin-top:30%;
+    margin-left:1%;
+    display:table;
+    width:88%;
+    border:1px solid gray;
+
+}
+    select
+    {
+       border:none;
+       font-size:15pt;
+    }
+
+    select:focus
+    {
+        outline:none;
+    }
+.row1{
+
+    width:100%;
+    margin-bottom:6%;
+}
+.row2
+{
+    width:100%;
+    margin-top:4%;
+    padding-top:40%;
+}
+.row3
+{
+    width:100%;
+    margin-top:4%;
+    margin-bottom: 4%;
+   
+}
+.col1{
+    width:30%;
+    margin-left:8%;
+    float:left;
+}
+.col2
+{
+    width:30%;
+    float:left;
+}
+.col3
+{
+    width:30%;
+    margin-left:2%;
+}
+.anchor
+{
+    text-decoration:none;
+}
+/*CSS stop movies page*/
+.head-movie
+{
+    background-color:firebrick;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+
+.search {
+                position:relative;
+                width:75%;
+                margin-bottom:2%;
+                margin-left:3%;
+                padding:13px 20px;
+                background:#fafafa;
+                border:0.5px solid firebrick;
+                border-radius:6px;
+                
+}
+.button {
+                
+               position:relative;
+               left:-40px;
+               padding: -2px 0px;
+               margin-top:6%;
+                width:6%;
+               
+}
+.button:hover  {
+               
+                                }
+ /* Fixes submit button height problem in Firefox */
+	.button::-moz-focus-inner {
+	  border: 0;
+	}
+    li{
+           
+           float:left;
+       }
+    li a {
+    display: block;
+    color: white;
+    font-size:15pt;
+    
+    text-decoration: none;
+}
+    .fon-size
+    {
+        font-size:15pt;
+    }
+    .asterick
+    {
+        color:red;
+    }
+    .text-size
+    {
+        height:35px;
+    margin-bottom:12px;
+    font-size:15pt;
+    border-radius:0.2em;
+    }
+.mov-col1
+{
+    width:40%;
+    float:left;
+    margin-top:3%;
+
+}
+.mov-col2
+{
+    width:60%;
+    float:left;
+    margin-top:4%;
+   
+}
+.mov-div1
+{
+    width:100%;
+    display:block;
+    border:1px solid gray;
+    margin-bottom:4%;
+    background-color:white;
+}
+.book
+{
+     background:firebrick;
+     color:white;
+     width:65px;
+     height:35px;
+}
+.mov-row1
+{
+    width:100%;
+    margin-top:2%;
+    margin-bottom:2%;
+    background-color:white;
+}
+.mov-row2
+{
+    
+   
+    display:block;
+    background-color:white;
+}
+.mov-title
+{
+    width:75%;
+    float:left;
+}
+.mov-img
+{
+    width:25%;
+    float:left;
+}
+.img-size
+{
+    width:100%;
+    height:17%;
+}
+/*CSS for Play Page*/
+.head-play
+{
+    background-color:mediumpurple;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.head-bug
+{
+    background-color:#ce6d86;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.head-notify
+{
+    background-color:#df2499;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.head-guest1
+{
+    background-color:darkorange;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.head-update1
+{
+    background-color:#99003d;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.book-play
+{
+     background:mediumpurple;
+     color:white;
+     width:65px;
+     height:35px;
+}
+/*CSS for Sport Page*/
+.head-sport
+{
+    background-color:#4360c1;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.book-sport
+{
+     background:#4360c1;
+     color:white;
+     width:65px;
+     height:35px;
+}
+/*CSS for insert all*/
+.head-insert
+{
+    background-color:#B1C732;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.head-guest
+{
+    background-color:#21A39D;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.ins-col1
+{
+    width:25%;
+    float:left;
+    margin-top:3%;
+
+}
+.ins-col2
+{
+    width:65%;
+    float:left;
+    margin-top:4%;
+   
+}
+
+.label{
+    background-color:ivory;
+    width:80%;
+    display:table;
+    border-radius:2%;
+    margin:22% 8%;
+}
+.label-color
+{
+    color:rgb(166, 31, 195);
+    font-size:16pt;
+    margin:5%;
+}
+.input-style
+{
+    display:block;
+    width:90%;
+    height:28px;
+    margin-bottom:4%;
+    border-radius:4%;
+    border:1px solid rgb(166, 31, 195);
+}
+.input-style2
+{
+    display:block;
+    width:90%;
+    height:28px;
+    margin-bottom:5%;
+    font-size:12pt;
+    border-radius:4%;
+    border:1px solid rgb(166, 31, 195);
+}
+.input-style1
+{
+    display:block;
+    width:90%;
+    border-radius:4%;
+    border:1px solid rgb(166, 31, 195);
+}
+.btn-color
+{
+    background-color:rgb(180, 83, 183);
+    color:white;
+    display:block;
+    font-size:15pt;
+    width:90%;
+    height:40px;
+    border-radius:3%;
+ }
+.btn-updatecolor
+{
+    background-color:#008080;
+    color:white;
+    display:block;
+    font-size:15pt;
+    width:90%;
+    height:40px;
+    border-radius:3%;
+ }
+.btn-deletecolor
+{
+    background-color:#008080;
+    color:white;
+    margin-left:3%;
+    font-size:12pt;
+    width:30%;
+    height:35px;
+    border-radius:4%;
+ }
+.head-update
+{
+    background-color:#3289C7;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.head-delete
+{
+    background-color:#168C4D;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}
+.head-delete1
+{
+    background-color:#9933ff;
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    font-size:16pt;
+    color:white;
+}

@@ -1,0 +1,86 @@
+﻿<!doctype html>
+<html>
+<head>
+    <link href="css/index.css" rel="stylesheet" />
+    <script>
+document.addEventListener("DOMContentLoaded", getGuestbookOne);
+function getQS(key)
+{
+var qs="", kva=[],
+kvi=[];
+qs= location.search.substring(1);
+kva = qs.split("&");
+for (i=0;i<kva.length;i++) {
+kvi= kva[i].split("=");
+if (kvi[0] == key)
+return kvi[1];
+}
+return(null);
+}
+function getGuestbookOne()
+{
+    var selectedID = getQS("id");
+    var oreq = new XMLHttpRequest();
+    oreq.onreadystatechange = function () {
+        if (oreq.readyState == 4) {
+            var table = JSON.parse(oreq.responseText);
+            txGuestNameUpdate.value    = table[0].guestname;
+            txGuestAgeUpdate.value     = table[0].guestage;
+            txGuestCommentUpdate.value = table[0].guestcomment;
+        }
+    }
+    oreq.open("GET","http://pomatino.com/guest.svc/guests/"+selectedID, true);
+    oreq.send();
+}
+function doUpdate() {
+    //alert("In Do Update");
+    var postdata = "guestname=" + txGuestNameUpdate.value + "&"
+    + "guestage=" + txGuestAgeUpdate.value + "&"
+    + "guestcomment=" + txGuestCommentUpdate.value;
+    var selectedID=getQS("id");
+    var oreq = new XMLHttpRequest();
+    oreq.onreadystatechange = function ()
+    {
+        if (oreq.readyState == 4)
+        {
+            
+            var table = JSON.parse(oreq.responseText);
+          
+            location.href="guestbookall.html";
+        }
+    }
+    oreq.open("POST","http://pomatino.com/guest.svc/guests/"+selectedID, true);
+    oreq.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    oreq.send(postdata);
+}
+    </script>
+</head>
+<body>
+     <div class="head-update1">
+        <div class="ins-col1"><a href="updateguest.html"><img src="images/back.png" /></a></div>
+        <div class="ins-col2"><span align="middle">GUESTBOOK UPDATE</span></div><br /><br />
+    </div>
+    <div class="label">
+        <div style="background-color:#008080;display:block;height:45px;margin-top:-9%;border-radius:3%;">
+            <h2 style="color:white; padding:4% 35%">Guests</h2>
+        </div>
+        <div class="label-color">
+            <label for="txGuestNameUpdate">Name:</label><br /><input class="input-style" type="text" id="txGuestNameUpdate" />
+            <label for="txGuestAgeUpdate">Age:</label><br /><input class="input-style" type="text" id="txGuestAgeUpdate" />
+            <label for="txGuestCommentUpdate">Comment:</label><br /><textarea class="input-style1" rows="6" cols="18" id="txGuestCommentUpdate"></textarea><br />
+            <input class="btn-updatecolor" type="button" value="Update" onclick="doUpdate()" /><br />
+            <a style="padding-left:10%" href="index.html">Go to Home Page</a>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <ul class="navbar">
+            <li style="width:20%;margin-left:-6%"><a class="anchor" href="index.html"><img style="width:30px;" src="images/shows.png" /><br /><span class="color">Shows</span></a></li>
+            <li style="width:30%"><a class="anchor" href="myshows.html"><img style="width:30px;padding-left:18%;" src="images/myshows.png" /><br /><span class="color">My Shows</span></a></li>
+            <li style="width:20%"><a href="login.html"><img style="width:30px;padding-left:12%" src="images/login.png" /><br /><span class="color">Login</span></a></li>
+            <li style="width:20%"><a href="feedback.html"><img style="width:30px;padding-left:24%" src="images/feedback.png" /><br /><span class="color">Feedback</span></a></li>
+        </ul>
+    </div>
+</body>
+</html>

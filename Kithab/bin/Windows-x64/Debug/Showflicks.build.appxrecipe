@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-QLT558IU</Machine>
+    <WindowsUser>neeha</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myappd4d84d</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\build\windows\debug\x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\all.png">
+      <PackagePath>www\images\all.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\arrow-right.png">
+      <PackagePath>www\images\arrow-right.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\arrow.png">
+      <PackagePath>www\images\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\badminton.png">
+      <PackagePath>www\images\badminton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\baseball.png">
+      <PackagePath>www\images\baseball.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\book.png">
+      <PackagePath>www\images\book.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\books-piled-.png">
+      <PackagePath>www\images\books-piled-.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\books.png">
+      <PackagePath>www\images\books.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\books1.png">
+      <PackagePath>www\images\books1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\dances.png">
+      <PackagePath>www\images\dances.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\feedback.png">
+      <PackagePath>www\images\feedback.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\Film.png">
+      <PackagePath>www\images\Film.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\Film1.png">
+      <PackagePath>www\images\Film1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\filter.png">
+      <PackagePath>www\images\filter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\football.png">
+      <PackagePath>www\images\football.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\godsofegypt.png">
+      <PackagePath>www\images\godsofegypt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\highschool.png">
+      <PackagePath>www\images\highschool.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\home.png">
+      <PackagePath>www\images\home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\location.png">
+      <PackagePath>www\images\location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\login.png">
+      <PackagePath>www\images\login.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\london.png">
+      <PackagePath>www\images\london.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\Microphone 2-96.png">
+      <PackagePath>www\images\Microphone 2-96.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\myshows.png">
+      <PackagePath>www\images\myshows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\once.png">
+      <PackagePath>www\images\once.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\password.png">
+      <PackagePath>www\images\password.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\plays.png">
+      <PackagePath>www\images\plays.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\scene.png">
+      <PackagePath>www\images\scene.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\search-sports.png">
+      <PackagePath>www\images\search-sports.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\searchbox.png">
+      <PackagePath>www\images\searchbox.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\searchplay.png">
+      <PackagePath>www\images\searchplay.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\shows.png">
+      <PackagePath>www\images\shows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\Sport.png">
+      <PackagePath>www\images\Sport.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\star.png">
+      <PackagePath>www\images\star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\thewitch.png">
+      <PackagePath>www\images\thewitch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\triple9.png">
+      <PackagePath>www\images\triple9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\username.png">
+      <PackagePath>www\images\username.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\whisky.png">
+      <PackagePath>www\images\whisky.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\women.png">
+      <PackagePath>www\images\women.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\css\login.css">
+      <PackagePath>www\css\login.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\feedback.html">
+      <PackagePath>www\feedback.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\login - Copy.html">
+      <PackagePath>www\login - Copy.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\login.html">
+      <PackagePath>www\login.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\movies.html">
+      <PackagePath>www\movies.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\myshows.html">
+      <PackagePath>www\myshows.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\plays.html">
+      <PackagePath>www\plays.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\register.html">
+      <PackagePath>www\register.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\sports.html">
+      <PackagePath>www\sports.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\www\images\notifyme.jpg">
+      <PackagePath>www\images\notifyme.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\neeha\OneDrive\Documents\Visual Studio 2015\Projects\Showflicks\Kithab\platforms\windows\build\windows\debug\x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

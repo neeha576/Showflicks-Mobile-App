@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="css/index.css" rel="stylesheet" />
+    <script>
+        function insertRecord()
+        {
+            //alert("In Insert Record");
+            var postdata = "bugname=" + txName.value + "&"
+            + "severity=" + txSeverity.value + "&"
+            + "reportedby=" + txReportedBy.value + " " + " ";
+            var oreq = new XMLHttpRequest();
+            oreq.onreadystatechange = function ()
+            {
+                if (oreq.readyState == 4)
+                {
+                    //alert(oreq.responseText);
+                    r = JSON.parse(oreq.responseText);
+                    location.href = "bugreport.html";
+                }
+            }
+            oreq.open("POST", "http://pomatino.com/bugreport.svc/bug", true);
+            oreq.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            oreq.send(postdata);
+        }
+    </script>
+</head>
+<body>
+    <div class="head-guest">
+        <div class="ins-col1"><a href="insertall.html"><img src="images/back.png" /></a></div>
+        <div class="ins-col2"><span align="middle">REPORT BUG</span></div><br /><br />
+    </div>
+    <div class="label">
+        <div style="background-color:rgb(180, 83, 183);display:block;height:45px;margin-top:-9%;border-radius:3%;">
+            <h2 style="color:white; padding:4% 40%">Bugs</h2>
+        </div>
+        <div class="label-color">
+            <label for="txName">Bug Desciption:</label><br /><textarea style="margin-bottom:5%" class="input-style1" rows="6" cols="18" type="text" id="txName" ></textarea>
+            <label for="txSeverity">Severity:</label><br />
+            <select class="input-style2" id="txSeverity">
+            <option value="Please Select...">Please Select...</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+            </select>
+            <label for="txReportedBy">Reported By:</label><br /><input class="input-style" type="text" id="txReportedBy" />
+            <input class="btn-color" type="button" value="Insert Record" onclick="insertRecord()" /><br />
+            <a style="padding-left:10%" href="index.html">Go to Home Page</a>
+         </div>
+     </div>
+    <div class="footer">
+        <ul class="navbar">
+            <li style="width:20%;margin-left:-6%"><a class="anchor" href="index.html"><img style="width:30px;" src="images/shows.png" /><br /><span class="color">Shows</span></a></li>
+            <li style="width:30%"><a class="anchor" href="myshows.html"><img style="width:30px;padding-left:18%;" src="images/myshows.png" /><br /><span class="color">My Shows</span></a></li>
+            <li style="width:20%"><a href="login.html"><img style="width:30px;padding-left:12%" src="images/login.png" /><br /><span class="color">Login</span></a></li>
+            <li style="width:20%"><a href="feedback.html"><img style="width:30px;padding-left:24%" src="images/feedback.png" /><br /><span class="color">Feedback</span></a></li>
+        </ul>
+    </div>
+</body>
+</html>
